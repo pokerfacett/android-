@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <TextView 
+        android:id="@+id/title"
+        android:layout_gravity="center_horizontal"
+        android:textSize="40sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="个人藏书登记" />
+    <ListView 
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="3px"/>
+    <LinearLayout 
+    	android:orientation="horizontal"
+    	android:gravity="center"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content">
+    	<Button 
+        	android:id="@+id/add"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textSize="20sp"
+        	android:text="增加书籍"
+    	/>
+    	<Button 
+        	android:id="@+id/modify"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textSize="20sp"
+        	android:text="修改书籍"
+    	/>    
+    	<Button 
+        	android:id="@+id/delete"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:textSize="20sp"
+        	android:text="删除书籍"
+    	/>
+    </LinearLayout>
+</LinearLayout>
